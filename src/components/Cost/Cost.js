@@ -3,7 +3,7 @@ import './Cost.css';
 
 const Cost = (props) => {
     const { cost } = props || {}
-
+    // cart Cost calculation
     const totalReducer = (prevValue, currentValue) => prevValue + parseFloat(currentValue.balance);
 
     const total = cost.reduce(totalReducer, 0).toFixed(2);

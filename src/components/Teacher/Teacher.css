@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
 }
+/* card image */
 .card-image img{
  float: left;
   margin: 20px;
