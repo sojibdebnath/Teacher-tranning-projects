@@ -1,6 +1,6 @@
 # My Project Name Teacher Tranning Projects
 
-This project was bootstrapped with [Create React App](https://teachers-tranning-projects-assignment-8.netlify.app/).
+This project was bootstrapped with [My React App](https://teachers-tranning-projects-assignment-8.netlify.app/).
 
 ## In the project directory, you can run:
 
