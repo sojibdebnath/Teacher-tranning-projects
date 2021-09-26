@@ -11,9 +11,9 @@ const Cost = (props) => {
 
     return (
         <div className="m-4">
-            <h4><i className="fas fa-shopping-cart"></i>Teacher Add: {cost.length}</h4>
+            <h4><span className="text-color"><i className="fas fa-user"></i>Teacher Added:</span> <span className="text-color2">{cost.length}</span></h4>
 
-            <h5>Total Cost: ${total}</h5>
+            <h5><span className="text-color">Total Cost:</span> <span className="text-color2">${total}</span></h5>
 
             <ul>
                 {

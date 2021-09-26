@@ -1,3 +1,6 @@
+.card-bg{
+  background-color:lightslategray ;
+}
 .card-image{
     padding-bottom: 10px;
     display: flex;

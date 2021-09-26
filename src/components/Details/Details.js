@@ -30,6 +30,7 @@ const Details = () => {
                         <div className="row">
                             {
                                 teachers.map(teacher => <Teacher
+                                    key={teacher.id}
                                     teacher={teacher}
                                     handleAddTeacher={handleAddTeacher}
                                 >
